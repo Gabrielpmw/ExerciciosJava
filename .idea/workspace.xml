@@ -5,24 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6fb0bbf-1dc9-49bd-a844-ddcf1a292703" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosNelioAlves.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_1/Dominio/Retangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_1/View/Programa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_2/dominio/Funcioario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_2/view/Programa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_3/domain/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_3/view/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_4/CotacaoDolar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_5/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_5/ServicoBanco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_10MaiorNumero/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_10SomaVetores/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_11AbaixoMedia/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_12MediaPares/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_13MaisVelho/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_14Pensionato/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_14Pensionato/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_6/Correcao/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_6/Dominio/Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_6/View/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_7/Correcao/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_7/Soma_vetor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_8/Correcao/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_8/PessoaMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_9NumerosPares/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio_5/Servico/ServicoBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio_5/Servico/ServicoBanco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio_5/View/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio_5/View/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,24 +53,37 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Exercicio2.Programa.executor": "Run",
+    "Application.Exercicio_10MaiorNumero.Main.executor": "Run",
+    "Application.Exercicio_10SomaVetores.Main.executor": "Run",
+    "Application.Exercicio_12MediaPares.Main.executor": "Run",
+    "Application.Exercicio_13MaisVelho.Main.executor": "Run",
+    "Application.Exercicio_14Pensionato.Main.executor": "Run",
     "Application.Exercicio_4.Main.executor": "Run",
     "Application.Exercicio_5.Main.executor": "Run",
+    "Application.Exercicio_5.View.Main.executor": "Run",
+    "Application.Exercicio_6.Main.executor": "Run",
+    "Application.Exercicio_7.Correcao.Main.executor": "Run",
+    "Application.Exercicio_7.Main.executor": "Run",
+    "Application.Exercicio_8.Correcao.Main.executor": "Run",
+    "Application.Exercicio_8.Main.executor": "Run",
+    "Application.Exercicio_9NumerosPares.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Programa.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gabri/IdeaProjects/ExerciciosNelioAlves",
     "onboarding.tips.debug.path": "C:/Users/gabri/IdeaProjects/ExerciciosNelioAlves/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Exercicio_5.View.Main">
-    <configuration name="Exercicio_2.view.Programa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio_2.view.Programa" />
+  <component name="RunManager" selected="Application.Exercicio_14Pensionato.Main">
+    <configuration name="Exercicio_10SomaVetores.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio_10SomaVetores.Main" />
       <module name="ExerciciosNelioAlves" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio_2.dominio.*" />
+          <option name="PATTERN" value="Exercicio_10SomaVetores.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio_4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio_4.Main" />
+    <configuration name="Exercicio_12MediaPares.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio_12MediaPares.Main" />
       <module name="ExerciciosNelioAlves" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio_4.*" />
+          <option name="PATTERN" value="Exercicio_12MediaPares.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +104,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio_5.View.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio_5.View.Main" />
+    <configuration name="Exercicio_13MaisVelho.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio_13MaisVelho.Main" />
       <module name="ExerciciosNelioAlves" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio_5.Dominio.*" />
+          <option name="PATTERN" value="Exercicio_13MaisVelho.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio_14Pensionato.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio_14Pensionato.Main" />
+      <module name="ExerciciosNelioAlves" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicio_14Pensionato.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,24 +131,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio_3.view.Main" />
+      <option name="MAIN_CLASS_NAME" value="Exercicio_11AbaixoMedia.Main" />
       <module name="ExerciciosNelioAlves" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio_3.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Programa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio_1.View.Programa" />
-      <module name="ExerciciosNelioAlves" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exercicio_1.Dominio.*" />
+          <option name="PATTERN" value="Exercicio_11AbaixoMedia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercicio_5.View.Main" />
-        <item itemvalue="Application.Exercicio_4.Main" />
+        <item itemvalue="Application.Exercicio_14Pensionato.Main" />
+        <item itemvalue="Application.Exercicio_13MaisVelho.Main" />
+        <item itemvalue="Application.Exercicio_12MediaPares.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Exercicio_2.view.Programa" />
-        <item itemvalue="Application.Programa" />
+        <item itemvalue="Application.Exercicio_10SomaVetores.Main" />
       </list>
     </recent_temporary>
   </component>

@@ -5,9 +5,10 @@ import Exercicio_5.Servico.ServicoBanco;
 
 public class Main {
     public static void main(String[] args) {
-        Conta conta = new Conta("Gabriel Vieira Ribeiro", 123, 600);
+        Conta conta = new Conta("Gabriel Vieira Ribeiro", 123, 500);
 
-        ServicoBanco.exibirInformacao(conta);
-        ServicoBanco.depositar(conta, 100);
+        ServicoBanco.depositar(conta, 200);
+        ServicoBanco.saque(conta, 300);
+
     }
 }

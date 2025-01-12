@@ -10,7 +10,7 @@ public class ServicoBanco {
     }
 
     public static void saque(Conta conta, double valor){
-        double deposito = conta.getDepositoInicial();
+        double deposito = conta.getDepositoInicial() - 5;
         deposito -= valor;
         conta.setDepositoInicial(deposito);
         exibirInformacao(conta);
