@@ -2,6 +2,9 @@ package Exercicio_16Contrato;
 
 public enum NivelTrabalho {
     JUNIOR,
-    MID_LEVEL,
+    PLENO,
     SENIOR;
+
+    private NivelTrabalho() {
+    }
 }

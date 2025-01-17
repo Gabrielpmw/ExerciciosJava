@@ -13,8 +13,19 @@ public class ContratoHora {
         this.hora = hora;
     }
 
+    public ContratoHora() {
+    }
+
+    public double calcularRenda() {
+        return this.valorHora * (double)this.hora;
+    }
+
+    public double valorTotal() {
+        return this.valorHora * (double)this.hora;
+    }
+
     public Integer getAno() {
-        return ano;
+        return this.ano;
     }
 
     public void setAno(Integer ano) {
@@ -22,7 +33,7 @@ public class ContratoHora {
     }
 
     public Integer getMes() {
-        return mes;
+        return this.mes;
     }
 
     public void setMes(Integer mes) {
@@ -30,7 +41,7 @@ public class ContratoHora {
     }
 
     public Double getValorHora() {
-        return valorHora;
+        return this.valorHora;
     }
 
     public void setValorHora(Double valorHora) {
@@ -38,7 +49,7 @@ public class ContratoHora {
     }
 
     public Integer getHora() {
-        return hora;
+        return this.hora;
     }
 
     public void setHora(Integer hora) {

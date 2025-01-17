@@ -1,99 +1,100 @@
 package Exercicio_16Contrato;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Trabalhador {
     private String nome;
-    private String nivelTrabalho;
+    private NivelTrabalho nivel;
     private Double salarioBase;
-    private ArrayList<ContratoHora> contratos = new ArrayList<ContratoHora>();
+    private ArrayList<ContratoHora> contratos = new ArrayList();
+    Scanner scanner;
 
-    Scanner scanner = new Scanner(System.in);
-
-    public Trabalhador(String nome, String nivelTrabalho, Double salarioBase) {
-        this.nome = nome;
-        this.nivelTrabalho = nivelTrabalho;
-        this.salarioBase = salarioBase;
+    public Trabalhador(String nom, NivelTrabalho nivel, Double salarioBas) {
+        this.scanner = new Scanner(System.in);
+        this.nome = nom;
+        this.nivel = nivel;
+        this.salarioBase = salarioBas;
     }
 
-    public void adicionarContrato(){
-        System.out.println("Quantos contratos o senhor irá adicionar? ");
-        Integer quantidadeContrato = scanner.nextInt();
-        scanner.nextLine();
+    public Trabalhador() {
+        this.scanner = new Scanner(System.in);
+    }
 
+    public void adicionarContrato() {
+        System.out.println("Quantos contrato irá adicionar? ");
+        Integer quantContrato = this.scanner.nextInt();
 
-        for (int x = 0; x < quantidadeContrato; x++){
-            System.out.println("Ano do contrato: ");
-            Integer anoContrato = scanner.nextInt();
-            scanner.nextLine();
-
-            System.out.println("Mês do contrato: ");
-            Integer mesContrato = scanner.nextInt();
-            scanner.nextLine();
-
+        for(int x = 0; x < quantContrato; ++x) {
+            System.out.println("Ano: ");
+            Integer anoContrato = this.scanner.nextInt();
+            this.scanner.nextLine();
+            System.out.println("Mês: ");
+            Integer mesContrato = this.scanner.nextInt();
+            this.scanner.nextLine();
             System.out.println("Valor por hora: ");
-            Double horaValor = scanner.nextDouble();
-            scanner.nextLine();
-
+            Double valorHora = this.scanner.nextDouble();
+            this.scanner.nextLine();
             System.out.println("Quantidade de horas: ");
-            Integer quantidadeHoras = scanner.nextInt();
-            scanner.nextLine();
-
-            ContratoHora contrato = new ContratoHora(anoContrato, mesContrato, horaValor, quantidadeHoras);
-            contratos.add(contrato);
+            Integer horaMes = this.scanner.nextInt();
+            this.scanner.nextLine();
+            ContratoHora contrato = new ContratoHora(anoContrato, mesContrato, valorHora, horaMes);
+            this.contratos.add(contrato);
         }
-        System.out.println("Contrato adicionado com sucesso");
+
+        System.out.println("Processo conclu[ido");
     }
 
-    public void removerContrato(){
+    public void calcularRenda() {
+        new ContratoHora();
         System.out.println("Ano do contrato: ");
-        Integer anoContrato = scanner.nextInt();
-
+        Integer anoCalculo = this.scanner.nextInt();
+        this.scanner.nextLine();
         System.out.println("Mês do contrato: ");
-        Integer mesContrato = scanner.nextInt();
+        Integer mesCalculo = this.scanner.nextInt();
+        this.scanner.nextLine();
+        Iterator var4 = this.contratos.iterator();
 
-        for (int x = 0; x < contratos.size(); x++){
-            ContratoHora contrato = contratos.get(x);
-            if (contrato.getAno().equals(anoContrato) && contrato.getMes().equals(mesContrato)){
-                contratos.remove(x);
-                System.out.println("Contrato removido com sucessor");
-                return;
+        while(var4.hasNext()) {
+            ContratoHora contratoHora = (ContratoHora)var4.next();
+            if (anoCalculo.equals(contratoHora.getAno()) && mesCalculo.equals(contratoHora.getMes())) {
+                Double valorTotal = contratoHora.calcularRenda();
+                this.salarioBase = this.salarioBase + valorTotal;
+                this.exibirInformacao();
+                System.out.println("Reajuse de salário para: " + this.salarioBase);
             }
         }
+
     }
 
-
+    public void exibirInformacao() {
+        System.out.println("Nome: " + this.nome);
+        System.out.println("N[ivel de trabalho: " + String.valueOf(NivelTrabalho.SENIOR));
+        System.out.println("Salário base: " + this.salarioBase);
+    }
 
     public String getNome() {
-        return nome;
+        return this.nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome(String nom) {
+        this.nome = nom;
     }
 
-    public String getNivelTrabalho() {
-        return nivelTrabalho;
+    public NivelTrabalho getNivel() {
+        return this.nivel;
     }
 
-    public void setNivelTrabalho(String nivelTrabalho) {
-        this.nivelTrabalho = nivelTrabalho;
+    public void setNivel(NivelTrabalho nivel) {
+        this.nivel = nivel;
     }
 
-    public Double getSalarioBase() {
-        return salarioBase;
+    public Double getSalarioBas() {
+        return this.salarioBase;
     }
 
-    public void setSalarioBase(Double salarioBase) {
-        this.salarioBase = salarioBase;
-    }
-
-    public ArrayList<ContratoHora> getContratos() {
-        return contratos;
-    }
-
-    public void setContratos(ArrayList<ContratoHora> contratos) {
-        this.contratos = contratos;
+    public void setSalarioBas(Double salarioBas) {
+        this.salarioBase = salarioBas;
     }
 }
