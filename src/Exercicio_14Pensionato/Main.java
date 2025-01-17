@@ -34,7 +34,6 @@ public class Main {
                     }else {
                         System.out.println("Quarto ocupado");
                     }
-
                     break;
                 case 2:
                     System.out.println("Qual número o senhor tem interesse em saber as informações. De 0 a 9");
@@ -47,7 +46,6 @@ public class Main {
                     }else {
                         System.out.println("este quarto está livre para ocupamento");
                     }
-
                     break;
                 case 3:
                     continuar = false;
@@ -56,6 +54,6 @@ public class Main {
                 default:
                     System.out.println("Opção inválida");
             }
-        }while (continuar);
+        }while(continuar);
     }
 }
